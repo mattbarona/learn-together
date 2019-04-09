@@ -4,11 +4,13 @@
     --blue: #017fe8;
 }
 
+
 html {
     background-image: url("BACKGROUND.svg"); 
     background-repeat: repeat-x;
     background-position: 0px 620px; 
     background-attachment: fixed;
+    background-size: contain;
 }
 
 body {
