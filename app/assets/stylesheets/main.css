@@ -11,6 +11,7 @@ html {
     background-position: 0px 620px; 
     background-attachment: fixed;
     background-size: contain;
+    z-index: -1;
 }
 
 body {
@@ -32,14 +33,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px;
   }
 
 .navigation {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    
 }
 
 .navigation a {
@@ -89,7 +89,7 @@ a {
 .main {
     display: flex;
     height: 400px;
-    padding: 10px;
+    padding: 20px;
     color: black;
     justify-content: flex-start;
     align-items: center;
