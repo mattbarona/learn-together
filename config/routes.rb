@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :posts
-  root 'home#index'
+  #root 'home#index'
+  root 'welcome#homepage'
   
   # devise_for :users, :controllers => {:registrations => "my_devise/registrations"}
   
@@ -15,8 +16,4 @@ Rails.application.routes.draw do
   resources :languages do
     delete 'remove'
   end
- 
-  devise_for :users
-  root 'welcome#homepage'
-  
 end
