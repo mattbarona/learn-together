@@ -11,4 +11,12 @@
  * file per style scope.
  *= require_tree
  *= require_self
+<<<<<<< HEAD
+ 
  */
+ 
+ .loginform {
+   margin: auto;
+   text-align: center;
+   width: 50%
+ }
