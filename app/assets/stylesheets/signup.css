@@ -13,10 +13,10 @@
 }
 
 .signup-container {
-    height: 50vh;
     display: flex;
+    height: 75vh;
     align-items: center;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
 }
 
 .form-wrapper {
@@ -24,8 +24,8 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    flex-wrap: wrap;
-    overflow: hidden;
+    flex-wrap: no-wrap;
+    background-color: blue;
     border-radius: 15px;
     padding: 20px;
     margin: 0 auto;
